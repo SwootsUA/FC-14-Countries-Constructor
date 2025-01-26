@@ -24,12 +24,12 @@ function showObjectFields(obj) {
     }
 }
 
-const ukraine = new Country('Ukraine', 'Kyiv', 41_000_000, 603_500);
-const poland = new Country('Poland', 'Warsaw', 38_000_000, 312_696);
+const UKRAINE = new Country('Ukraine', 'Kyiv', 41_000_000, 603_500);
+const POLAND = new Country('Poland', 'Warsaw', 38_000_000, 312_696);
 
 console.log('======================');
-ukraine.showCountry();
-showObjectFields(ukraine);
+UKRAINE.showCountry();
+showObjectFields(UKRAINE);
 console.log('======================');
-poland.showCountry();
-showObjectFields(poland);
+POLAND.showCountry();
+showObjectFields(POLAND);
