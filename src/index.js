@@ -9,9 +9,10 @@ function Country(title, capital, population, area) {
 
 /**
  * Logs all info about the country
+ * @returns {string} info about the country
  */
 Country.prototype.showCountry = function () {
-    console.log(`title: ${this.title}, capital: ${this.capital}, population: ${this.population}, area: ${this.area}`);
+    return `Country: ${this.title} \nCapital: ${this.capital} \nPopulation: ${this.population} \nArea: ${this.area}`;
 }
 
 /**
@@ -29,9 +30,8 @@ function showObjectFields(obj) {
 const UKRAINE = new Country('Ukraine', 'Kyiv', 41_000_000, 603_500);
 const POLAND = new Country('Poland', 'Warsaw', 38_000_000, 322_500);
 
-console.log('======================');
-UKRAINE.showCountry();
+console.log(UKRAINE.showCountry()); 
 showObjectFields(UKRAINE);
-console.log('======================');
-POLAND.showCountry();
+console.log('\n======================\n\n');
+console.log(POLAND.showCountry()); 
 showObjectFields(POLAND);
