@@ -25,7 +25,7 @@ function showObjectFields(obj) {
 }
 
 const UKRAINE = new Country('Ukraine', 'Kyiv', 41_000_000, 603_500);
-const POLAND = new Country('Poland', 'Warsaw', 38_000_000, 312_696);
+const POLAND = new Country('Poland', 'Warsaw', 38_000_000, 322_500);
 
 console.log('======================');
 UKRAINE.showCountry();
