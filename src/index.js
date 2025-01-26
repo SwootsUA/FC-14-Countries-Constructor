@@ -1,3 +1,5 @@
+'use strict';
+
 function Country(title, capital, population, area) {   
     this.title = title;
     this.capital = capital;
