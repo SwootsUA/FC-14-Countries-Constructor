@@ -29,7 +29,7 @@ Country.prototype.showCountry = function () {
 function showObjectFields(obj) {
     for (const key in obj) {
         if (typeof obj[key] !== 'function') {
-            console.log(`obj.${key} = ${obj[key]}`);
+            console.log(`obj.${key}: ${obj[key]}`);
         }
     }
 }
