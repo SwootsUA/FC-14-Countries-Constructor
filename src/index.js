@@ -1,5 +1,12 @@
 'use strict';
 
+/**
+ * Constructor of the Country object
+ * @param {string} title - name of the country 
+ * @param {string} capital - name of the capital
+ * @param {number} population - number of people living in the country
+ * @param {number} area - area of the country in square kilometers
+ */
 function Country(title, capital, population, area) {   
     this.title = title;
     this.capital = capital;
