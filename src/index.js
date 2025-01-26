@@ -8,8 +8,8 @@ function Country(title, capital, population, area) {
 }
 
 /**
- * Logs all info about the country
- * @returns {string} info about the country
+ * Returns all info about the country
+ * @returns {string}
  */
 Country.prototype.showCountry = function () {
     return `Country: ${this.title} \nCapital: ${this.capital} \nPopulation: ${this.population} \nArea: ${this.area}`;
