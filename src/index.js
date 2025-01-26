@@ -15,7 +15,7 @@ function Country(title, capital, population, area) {
 }
 
 /**
- * Returns all info about the country
+ * Returns all info about the country in one string
  * @returns {string}
  */
 Country.prototype.showCountry = function () {
