@@ -7,7 +7,7 @@
  * @param {number} population - number of people living in the country
  * @param {number} area - area of the country in square kilometers
  */
-function Country(title, capital, population, area) {   
+function Country(title = '', capital = '', population = 0, area = 0) {   
     this.title = title;
     this.capital = capital;
     this.population = population;
@@ -19,7 +19,7 @@ function Country(title, capital, population, area) {
  * @returns {string}
  */
 Country.prototype.showCountry = function () {
-    return `Country: ${this.title} \nCapital: ${this.capital} \nPopulation: ${this.population} \nArea: ${this.area}`;
+    return `Country: ${this.title} \nCapital: ${this.capital} \nPopulation: ${this.population} \nArea: ${this.area} km^2`;
 }
 
 /**
